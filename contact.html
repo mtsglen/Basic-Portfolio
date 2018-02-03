@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Stephanie Glendenning</title>
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
@@ -24,22 +25,24 @@
         <section class="contact-form">
           <h1>Contact</h1>
           <form>
-            Name:<br>
-            <input type="text" value="Jane Smith"><br>
-            Email:<br>
-            <input type="text" value="jane.smith@example.com"><br>
-            Message: <br>
-            <input type="text">
+            <p>Name:</p><br>
+            <input type="text" id="name" class="form" value="Jane Smith"><br>
+            <p>Email:</p><br>
+            <input class="form" id="email" type="text" value="jane.smith@example.com"><br>
+            <p></p>Message: </p><br>
+            <input id="message" type="text">
           </form>
+          <button type="button" name="button">Submit</button>
         </section>
-        <section class="connect">
-          <a href="https://placeholder.com"><img src="http://via.placeholder.com/50x50"></a>
-          <a href="https://placeholder.com"><img src="http://via.placeholder.com/50x50"></a>
-          <a href="https://placeholder.com"><img src="http://via.placeholder.com/50x50"></a>
-        </section>
+        <sidebar class="connect">
+          <h2>Connect With Me</h2>
+          <a href="https://github.com/settings/profile"><img src="assets/images/octocat.png" height="50px" width="50px" target="_blank"></a>
+          <a href="https://www.linkedin.com/in/stephanie-glendenning-309ab186/"><img src="assets/images/linkedin.png" height="50px" width="50px" target="_blank"></a>
+          <a href="https://stackoverflow.com/users/9254561/s-glendenning"><img src="assets/images/logo.ico" height="60px" width="60px" target="_blank"></a>
+        </sidebar>
       </div>
       <footer>
-        &copy;Copyright 2018 Stephanie Glendenning
+        <p>&copy;Copyright 2018 Stephanie Glendenning</p>
       </footer>
     </div>
   </body>

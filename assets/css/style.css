@@ -1,3 +1,6 @@
+.wrapper{
+  /* width: 960px; */
+}
 body {
   font-family: 'Oswald', sans-serif;
   background-color: WhiteSmoke;
@@ -31,7 +34,7 @@ header {
 nav {
   display: inline-block;
   float: right;
-  position: relative;
+  /* position: relative; */
 }
 
 nav li {
@@ -49,18 +52,20 @@ a:link, a:visited {
   position: relative;
 }
 
-.about-me {
+.about-me, .contact-form {
   width: 60%;
+  /* width: 650px; */
   height: auto;
   float: left;
-  margin-left: 3%;
+  margin-left: 5%;
   margin-top: 3%;
   padding: 10px 10px;
   border: 3px CadetBlue solid;
   background-color: white;
+
 }
 
-.about-me h1 {
+.about-me h1, .contact-form h1 {
   float: left;
   /* font-family: 'Oswald', sans-serif; */
   width: 100%;
@@ -73,20 +78,23 @@ a:link, a:visited {
 }
 
 .picture {
-  float: none;
-  clear: none;
-
+  width: 190px;
+  float: left;
+  margin-right: 12px;
 }
 
-.text p {
+.text {
   line-height: 1.5;
+  /* float: left; */
+  margin-left: 10px;
 }
 
 .connect {
-  width: 25%;
+  /* width: 25%; */
+  /* width: 270px; */
   height: auto;
   float: left;
-  margin-right: 3%;
+  margin-right: 9%;
   margin-top: 3%;
   padding: 10px 10px;
   border: 3px CadetBlue solid;
@@ -98,10 +106,52 @@ a:link, a:visited {
   font-size: 24px;
   padding-left: 10px;
   text-align: center;
+  text-align: center;
+  border-bottom: 3px solid CadetBlue;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .connect a {
-  clear: both;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 auto;
+}
+
+.form {
+  span: 100%;
+  /* padding: 5px; */
+}
+
+.form p {
+  margin: 5px;
+  padding-top: 10px;
+}
+
+#name {
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+#email {
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+#message {
+  width: 95%;
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+button {
+  background-color: CadetBlue;
+  color: GhostWhite;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
 }
 
 footer {
