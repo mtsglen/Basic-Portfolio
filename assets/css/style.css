@@ -70,6 +70,7 @@ a:link, a:visited {
   border: 3px CadetBlue solid;
   background-color: white;
   clear: both;
+  margin-bottom: 3%;
 }
 
 .about-me h1, .contact-form h1, .portfolio h1 {
@@ -113,6 +114,7 @@ a:link, a:visited {
 
 .connect h2  {
   font-size: 24px;
+  height: 29px;
   padding-left: 10px;
   text-align: center;
   text-align: center;
@@ -196,10 +198,11 @@ footer {
   /* padding-bottom: 20px; */
   border-top: 5px solid CadetBlue;
   clear: both;
-  position: fixed;
+  position: relative;
   bottom: 0;
-  width: 960px;
-  /* width: 100% */
+  /* width:
+  margin: 0;
+  /* width: 100%; */
 }
 
 footer p {
